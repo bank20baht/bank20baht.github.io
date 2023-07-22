@@ -13,3 +13,49 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.show-desktop {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}
+
+.text-30 {
+  font-size: 1.56vw;
+  line-height: 1;
+}
+
+.text-22 {
+  font-size: 1.14vw;
+  line-height: 1.45;
+}
+
+.text-30-title {
+  font-size: 1.56vw;
+  line-height: 1;
+  font-weight: bold;
+}
+
+@media all and (max-width: 768px) {
+  .text-30 {
+    font-size: 4vw;
+  }
+  .text-22 {
+    font-size: 3.5vw;
+  }
+  .text-30-title {
+    font-size: 4vw;
+  }
+}
